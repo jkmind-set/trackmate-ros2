@@ -5,7 +5,7 @@
 ![ROS 2 Jazzy](https://img.shields.io/badge/ROS_2-Jazzy-22314E?logo=ros)
 ![Ubuntu 24.04](https://img.shields.io/badge/Ubuntu-24.04-E95420?logo=ubuntu&logoColor=white)
 ![Platform](https://img.shields.io/badge/chassis-MentorPi_tracked-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
+![License](https://img.shields.io/badge/license-GPL--3.0-blue)
 
 TrackMate is a personal assistant robot built on the **MentorPi suspension
 tracked chassis**. It combines **SLAM** for navigation, **vision AI** for
