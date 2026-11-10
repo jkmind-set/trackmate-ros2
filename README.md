@@ -29,18 +29,32 @@ Voice/Text → LLM planner → Task manager → Nav2 / Vision / Motion → Mento
 
 ## Hardware
 
+**Product:** Raspberry Pi 5 smart car, MentorPi suspension tracked chassis,
+SLAM vision AI large model, ROS robot
+
 | Component | Hardware |
 | --- | --- |
-| Chassis | Hiwonder MentorPi T1 anodized aluminum tracked tank (270 × 195 × 182 mm, approximately 1.88 kg) |
-| Compute | Raspberry Pi 5 (arm64; 4 GB kit upgraded with a 16 GB board) |
-| Sub-controller | RRC Lite (STM32 for closed-loop PID motor control, IMU, and power monitoring) |
-| Sensors | Oradar MS200 360° ToF LiDAR, Aurora930 Pro 3D Depth Camera, onboard IMU |
+| Product model | MentorPi (with depth camera) |
+| Chassis | Suspended tracked chassis; all-metal aluminum alloy with anodized finish (278 × 195 × 182 mm, L × W × H); approximately 1.88 kg |
+| Compute / ROS master | RRCLite robot controller with Raspberry Pi 5 motherboard |
+| Motors and encoders | Hall-coded DC geared motors with AB-phase incremental Hall encoders |
+| Sensors | Orida MS200 LiDAR, Aurora 930 Pro depth camera, onboard IMU |
 | Audio AI | WonderEcho Pro AI Voice Interaction Box (CI1302 speech processor, microphone array, and speaker) |
-| Actuators | DC geared motors with AB-phase Hall-effect quadrature encoders |
-| Power | 7.4 V (2S) 2200 mAh 10C LiPo battery with 8.4 V 2 A wall charger |
-| Storage | 64 GB pre-flashed microSD card |
+| Servo | LFD-01 anti-jam servo (monocular camera version) |
+| Control | Mobile app, handheld controller, or PC |
+| Power | 7.4 V 2200 mAh 10C lithium battery with protection board; approximately 60 minutes of runtime (varies by use) |
+| Communication | Wi-Fi / Ethernet |
+| Storage | 64 GB TF card |
+| Programming | Python, C/C++, and JavaScript |
+| Product software | Raspberry Pi OS / Ubuntu 22.04 LTS with ROS 2 Humble in Docker; iOS / Android mobile app |
+| Package contents | AI Pi5 4G or 16G Depth: robot car with Raspberry Pi 5 (4 GB or 16 GB), SD card, and AI |
+| Package size and weight | Approximately 3.2 kg; 397 × 244 × 220 mm (L × W × H) |
+| Supporting materials | Video tutorials, ROS source code, system images, and supporting software |
 
 ## Software
+
+The product configuration is listed above. This repository's development environment
+uses:
 
 - ROS 2 Jazzy
 - Ubuntu 24.04 (Noble Numbat)
