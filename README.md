@@ -63,7 +63,7 @@ clone/build/launch quick start is not available yet.
 
 ## Roadmap
 
-- [ ] Establish repository packages for the confirmed ROS 2 Humble platform
+- [X] Establish repository packages for the confirmed ROS 2 Humble platform
 - [ ] Chassis bringup and teleop
 - [ ] SLAM mapping
 - [ ] Nav2 autonomous navigation
